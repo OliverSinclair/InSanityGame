@@ -179,10 +179,7 @@ move_contact_solid(direction,12); vspeed=0 hspeed=0 */
 
 // Checks Collision with invisible floor
 
-move_contact_solid(direction, -1);
-gravity = 0;
-vspeed = 0;
-/*if (!place_free(x+hspeed,y))
+if (!place_free(x+hspeed,y))
 {
     if (hspeed&lt;=0){move_contact_solid(180,abs(hspeed));}
     if (hspeed&gt;0){move_contact_solid(0,abs(hspeed));}
