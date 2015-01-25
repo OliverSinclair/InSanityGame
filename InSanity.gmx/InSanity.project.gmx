@@ -12,7 +12,7 @@
     <sprite>sprites\spr_test</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\bck_level1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -36,6 +36,7 @@
     <object>objects\obj_floor</object>
     <object>objects\obj_pause</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_game</object>
     <objects name="Lights and Shadows">
       <object>objects\obj_light</object>
       <object>objects\obj_lightmap</object>
