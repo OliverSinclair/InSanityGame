@@ -41,8 +41,8 @@ view_wview = ScreenWidth
 view_hview = ScreenHeight
 
 //How much of our screen do we want that to take up?
-view_wport = ScreenWidth *5
-view_hport = ScreenHeight *5
+view_wport = ScreenWidth
+view_hport = ScreenHeight
 
 //Some weird game maker razzle dazzle that Tom Francis says we need
 surface_resize(application_surface,ScreenWidth,ScreenHeight)

@@ -10,6 +10,7 @@
     <sprite>sprites\spr_floor</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_test</sprite>
+    <sprite>sprites\spr_spike</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_level1</background>
@@ -43,6 +44,7 @@
       <object>objects\obj_shadowcaster</object>
       <object>objects\obj_control</object>
     </objects>
+    <object>objects\obj_spike</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level1</room>
